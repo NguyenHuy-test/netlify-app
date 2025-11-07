@@ -1,6 +1,28 @@
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    min-height: 100vh;
+        background-color: #FFFFFF; 
+    font-family: serif;
+}
+.card {
+    background-color: #F9F5EB;
+    border: 1px solid #CCCCCC;
+        border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 320px;
+} 
+.card h1 {
+    color: #D90429;
+        text-align: center;
+        margin-top: 0;
+}
+.card p {
+    color: #333333;
+    line-height: 1.6;
+        margin-bottom: 0;
 }
